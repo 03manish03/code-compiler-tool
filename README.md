@@ -51,29 +51,38 @@ Node.js
 
 npm
 
-📂 Project Structure
 project/
 │
 ├── src/
 │   ├── components/
-│   │   ├── CodeEditor.tsx
-│   │   └── OutputDisplay.tsx
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── lib/
-│       └── supabase.ts
+│   │   ├── CodeEditor.tsx        # Online code editor UI
+│   │   └── OutputDisplay.tsx     # Code output/result display
+│   │
+│   ├── lib/
+│   │   └── supabase.ts           # Supabase client configuration
+│   │
+│   ├── App.tsx                   # Main application component
+│   └── main.tsx                  # Application entry point
 │
 ├── supabase/
 │   ├── functions/
-│   │   └── execute-code/
-│   └── migrations/
+│   │   └── execute-code/         # Edge function for code execution
+│   │
+│   └── migrations/               # Database migration scripts
 │
-├── index.html
-├── package.json
-├── vite.config.ts
-├── tailwind.config.js
-├── tsconfig.json
-└── README.md
+├── public/                       # Static assets (if any)
+│
+├── index.html                    # Main HTML file
+├── package.json                  # Project dependencies & scripts
+├── vite.config.ts                # Vite configuration
+├── tailwind.config.js            # Tailwind CSS configuration
+├── postcss.config.js             # PostCSS configuration
+├── tsconfig.json                 # TypeScript configuration
+├── tsconfig.node.json            # Node TypeScript config
+├── .env.example                  # Environment variables example
+├── .gitignore                    # Git ignored files
+└── README.md                     # Project documentation
+
 
 ⚙️ How to Run the Project (Step-by-Step)
 1️⃣ Install Node.js
