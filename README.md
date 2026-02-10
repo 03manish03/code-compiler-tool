@@ -1,4 +1,4 @@
-🚀 Online Code Compiler Platform
+<img width="1024" height="1536" alt="ChatGPT Image Feb 11, 2026, 12_24_40 AM" src="https://github.com/user-attachments/assets/86c49e6a-18ea-4080-9e70-91be44697ada" />🚀 Online Code Compiler Platform
 
 An online code compiler and execution platform built using modern full-stack technologies. This project allows users to write, submit, and execute code through a web-based interface with real-time output display.
 
@@ -53,28 +53,8 @@ npm
 
 
 📂 Project Structure
-project/
-│
-├── src/
-│   ├── components/
-│   │   ├── CodeEditor.tsx
-│   │   └── OutputDisplay.tsx
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── lib/
-│       └── supabase.ts
-│
-├── supabase/
-│   ├── functions/
-│   │   └── execute-code/
-│   └── migrations/
-│
-├── index.html
-├── package.json
-├── vite.config.ts
-├── tailwind.config.js
-├── tsconfig.json
-└── README.md
+<img width="1024" height="1536" alt="02885600-23b6-4ec3-af6e-45479bf4b667" src="https://github.com/user-attachments/assets/ac80d5bd-ccc6-4a3d-9f56-86ed5384ecec" />
+
 
 
 ⚙️ How to Run the Project (Step-by-Step)
