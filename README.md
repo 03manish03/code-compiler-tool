@@ -1,4 +1,4 @@
-<img width="1024" height="1536" alt="ChatGPT Image Feb 11, 2026, 12_24_40 AM" src="https://github.com/user-attachments/assets/86c49e6a-18ea-4080-9e70-91be44697ada" />🚀 Online Code Compiler Platform
+🚀 Online Code Compiler Platform
 
 An online code compiler and execution platform built using modern full-stack technologies. This project allows users to write, submit, and execute code through a web-based interface with real-time output display.
 
